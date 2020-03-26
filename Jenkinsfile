@@ -8,12 +8,14 @@ stage("Cleaning stage"){
     }
     stage("Build stage"){
       steps{
-       javac HelloWorld.java
+       //javac HelloWorld.java
+             echo "Hello world Build stage"
       }
     }
      stage("Run stage"){
       steps{
-      java HelloWorld.java
+      //java HelloWorld.java
+      echo "Hello world Build stage"
       }
     }
 }
