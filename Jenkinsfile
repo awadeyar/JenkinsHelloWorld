@@ -15,7 +15,7 @@ stage("Cleaning stage"){
      stage("Run stage"){
       steps{
       //java HelloWorld.java
-      echo "Hello world Build stage"
+      echo "Hello world Run"
       }
     }
 }
